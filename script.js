@@ -8,7 +8,15 @@ function sum1(arr) {
         sum = sum + item;
 
        
-    })
+    }) 
     return sum;
 }
-console.log(sum1([1, 2, 3, 4, 5]));
+console.log(sum1([1, 1, 1, 1, 1]));
+
+//Task 3: Email validation with regex
+
+function validateEmail(email){
+   return  /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+}
+
+console.log(validateEmail("hello"))
