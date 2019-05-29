@@ -106,11 +106,12 @@ sortCart('price');
 console.log(cart);
 // Task 5c - find item by name 
 function findByName() {
-
+//search can pass rejects
 }
 //task 5d- get total cost
 
 function getTotalcost() {
+    //map,reduce
 
 
 
