@@ -110,9 +110,16 @@ function findByName() {
 }
 //task 5d- get total cost
 
+var Totalcost=null;
+
 function getTotalcost() {
     //map,reduce
-
-
+    cart.forEach(function(value){
+        Totalcost += value.price;
+       
+    })
+   
+    console.log("total cost = "+Totalcost)
 
 }
+getTotalcost()
