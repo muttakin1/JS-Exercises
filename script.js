@@ -105,10 +105,17 @@ sortCart('price');
 
 console.log(cart);
 // Task 5c - find item by name 
-function findByName() {
+function findByName(name) {
+    var newArr=cart.filter(function(item){
+        return item.name==name
+    })
+     console.log(newArr) }
 //search can pass rejects
-}
+
+findByName("Shoes")
+
 //task 5d- get total cost
+
 
 var Totalcost=null;
 
