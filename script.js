@@ -122,7 +122,7 @@ var Totalcost=null;
 function getTotalcost() {
     //map,reduce
     cart.forEach(function(value){
-        Totalcost += value.price;
+        Totalcost += value.quantity*value.price;
        
     })
    
